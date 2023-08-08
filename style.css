@@ -1,0 +1,95 @@
+
+.font-bolder{
+    font-weight: bolder;
+}
+body{
+    font-family: sans-serif;
+}
+main{
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    height: 288px;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    
+}
+
+.nav-header{
+    text-align: right;
+    font-size: .875rem;
+    text-decoration: none;
+    padding-right: 40px;
+    margin-bottom: 14px;
+}
+
+header{
+    margin-left: 40px;
+}
+
+a{
+    color: #104C42;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    width:50%;
+
+}
+span{
+    color:white;
+    margin:5px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#uno {
+    grid-column: 1 / 4; /* 1,2,3*/
+    grid-row:1/2;
+    font-size:40px;
+    margin-bottom: -80px;
+}
+
+#dos {
+    grid-column: 2 / 3;
+    grid-row:2/3;
+    margin-top: -40px;
+    font-size: 30px;
+}
+
+#tres {
+    grid-column: 3/4;
+    grid-row:2/3;
+    font-size:50px;
+    margin-top: -40px;
+    margin-bottom: -100px;
+}
+
+#cuatro {
+    grid-column: 3/4;
+    grid-row:3/4;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+div.text1{
+    text-align: center;
+}
+
+h2{
+    color: #A99D85;
+}
+p{
+    color: #47494D;
+}
